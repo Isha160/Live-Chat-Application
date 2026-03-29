@@ -110,7 +110,8 @@ Live-Chat-Application
 
 2- Navigate to the project directory
 
-```cd Live-Chat-Application~~~
+```bash
+cd Live-Chat-Application
 
 3- Run the application
 
