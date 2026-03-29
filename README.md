@@ -2,7 +2,7 @@
 
 ## 📌 Project Description
 
-Live Chat Application is a real-time web application developed using Spring Boot and WebSockets that enables users to communicate instantly through a browser-based interface. The application uses the WebSocket protocol with STOMP messaging to establish a persistent, bidirectional connection between client and server, ensuring low-latency message delivery without page refresh.
+---Live Chat Application is a real-time web application developed using Spring Boot and WebSockets that enables users to communicate instantly through a browser-based interface. The application uses the WebSocket protocol with STOMP messaging to establish a persistent, bidirectional connection between client and server, ensuring low-latency message delivery without page refresh.
 ---
 
 ## 🚀 Features
