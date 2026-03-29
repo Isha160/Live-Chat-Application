@@ -58,6 +58,7 @@ Live Chat Application is a real-time web application developed using Spring Boot
 ---
 
 ## 📂 Project Structure
+
 Live-Chat-Application
 │
 ├── src
@@ -89,7 +90,6 @@ Live-Chat-Application
 ├── pom.xml
 ├── README.md
 └── mvnw
-
 
 ---
 
