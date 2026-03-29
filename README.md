@@ -61,30 +61,30 @@ Live Chat Application is a real-time web application developed using Spring Boot
 Live-Chat-Application
 │
 ├── src
-│ ├── main
-│ │ ├── java
-│ │ │ └── com
-│ │ │ └── chat
-│ │ │ └── app
-│ │ │ ├── AppApplication.java
-│ │ │ ├── config
-│ │ │ │ └── WebSocketConfig.java
-│ │ │ ├── controller
-│ │ │ │ └── ChatController.java
-│ │ │ └── model
-│ │ │ └── ChatMessage.java
-│ │ │
-│ │ └── resources
-│ │ ├── application.properties
-│ │ └── templates
-│ │ └── chat.html
-│ │
-│ └── test
-│ └── java
-│ └── com
-│ └── chat
-│ └── app
-│ └── AppApplicationTests.java
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── chat
+│   │   │           └── app
+│   │   │               ├── AppApplication.java
+│   │   │               ├── config
+│   │   │               │   └── WebSocketConfig.java
+│   │   │               ├── controller
+│   │   │               │   └── ChatController.java
+│   │   │               └── model
+│   │   │                   └── ChatMessage.java
+│   │   │
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── templates
+│   │           └── chat.html
+│   │
+│   └── test
+│       └── java
+│           └── com
+│               └── chat
+│                   └── app
+│                       └── AppApplicationTests.java
 │
 ├── pom.xml
 ├── README.md
