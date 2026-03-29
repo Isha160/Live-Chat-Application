@@ -91,7 +91,7 @@ Live-Chat-Application
 ├── README.md
 └── mvnw
 
----
+
 
 ## ⚙️ How to Run the Project
 
