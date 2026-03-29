@@ -115,8 +115,10 @@ cd Live-Chat-Application
 
 3- Run the application
 
-```mvn spring-boot:run~~~
+```bash
+mvn spring-boot: run
 
 4- Open the browser and visit
 
-```http://localhost:8080/chat~~~
+```bash
+http://localhost:8080/chat
