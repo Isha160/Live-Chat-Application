@@ -90,3 +90,32 @@ Live-Chat-Application
 ├── README.md
 └── mvnw
 
+
+---
+
+## ⚙️ How to Run the Project
+
+### 🔹 Prerequisites
+- Java 8 or above
+- Maven
+- Any IDE (IntelliJ / Eclipse / STS)
+
+---
+
+### 🔹 Steps to Run
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Isha160/Live-Chat-Application.git
+   ~~~
+2- Navigate to the project directory
+
+~~~cd Live-Chat-Application
+~~~
+3- Run the application
+
+~~~mvn spring-boot:run~~~
+
+4- Open the browser and visit
+
+~~~http://localhost:8080/chat~~~
