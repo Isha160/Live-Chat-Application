@@ -16,15 +16,10 @@ Live Chat Application is a real-time web application developed using Spring Boot
 
 ### 🔐 Security
 - Encrypted password storage
-- **Custom Security Filters**
-- **CSRF Protection**
+- Custom Security Filters
+- CSRF Protection
 - Secure environment variable management
 - Protected APIs with Spring Security
-
-### 🧾 Admin Features
-- **Admin Auditing**
-- User activity monitoring
-- Role-based access control
 
 ### 📧 Email Services
 - Email verification during registration
