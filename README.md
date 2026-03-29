@@ -110,8 +110,8 @@ Live-Chat-Application
    ~~~
 2- Navigate to the project directory
 
-~~~cd Live-Chat-Application
-~~~
+~~~cd Live-Chat-Application~~~
+
 3- Run the application
 
 ~~~mvn spring-boot:run~~~
