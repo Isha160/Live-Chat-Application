@@ -115,6 +115,7 @@ Live-Chat-Application
 
 ```bash
 cd Live-Chat-Application
+```
 
 3- Run the application
 
