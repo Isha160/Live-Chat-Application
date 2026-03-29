@@ -110,12 +110,12 @@ Live-Chat-Application
    ~~~
 2- Navigate to the project directory
 
-~~~cd Live-Chat-Application~~~
+```cd Live-Chat-Application~~~
 
 3- Run the application
 
-~~~mvn spring-boot:run~~~
+```mvn spring-boot:run~~~
 
 4- Open the browser and visit
 
-~~~http://localhost:8080/chat~~~
+```http://localhost:8080/chat~~~
