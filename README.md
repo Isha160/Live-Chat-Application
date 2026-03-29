@@ -121,11 +121,13 @@ cd Live-Chat-Application
 
 ```bash
 mvn spring-boot: run
+```
 
 4- Open the browser and visit
 
 ```bash
 http://localhost:8080/chat
+```
 
 ## 🔁 WebSocket Flow
 
