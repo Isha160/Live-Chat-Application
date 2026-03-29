@@ -109,6 +109,7 @@ Live-Chat-Application
 1. Clone the repository
    ```bash
    git clone https://github.com/Isha160/Live-Chat-Application.git
+   ```
 
 2- Navigate to the project directory
 
