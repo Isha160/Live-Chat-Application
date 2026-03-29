@@ -5,40 +5,6 @@
 Live Chat Application is a real-time web application developed using Spring Boot and WebSockets that enables users to communicate instantly through a browser-based interface. The application uses the WebSocket protocol with STOMP messaging to establish a persistent, bidirectional connection between client and server, ensuring low-latency message delivery without page refresh.
 ---
 
-<pre>
-Live-Chat-Application
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── chat
-│   │   │           └── app
-│   │   │               ├── AppApplication.java
-│   │   │               ├── config
-│   │   │               │   └── WebSocketConfig.java
-│   │   │               ├── controller
-│   │   │               │   └── ChatController.java
-│   │   │               └── model
-│   │   │                   └── ChatMessage.java
-│   │   │
-│   │   └── resources
-│   │       ├── application.properties
-│   │       └── templates
-│   │           └── chat.html
-│   │
-│   └── test
-│       └── java
-│           └── com
-│               └── chat
-│                   └── app
-│                       └── AppApplicationTests.java
-│
-├── pom.xml
-├── README.md
-└── mvnw
-</pre>
-
 ## 🚀 Features
 
 ### 🔑 Authentication & Authorization
@@ -93,6 +59,8 @@ Live-Chat-Application
 
 ## 📂 Project Structure
 
+
+<pre>
 Live-Chat-Application
 │
 ├── src
@@ -124,7 +92,7 @@ Live-Chat-Application
 ├── pom.xml
 ├── README.md
 └── mvnw
-
+</pre>
 
 
 ## ⚙️ How to Run the Project
