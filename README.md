@@ -1,17 +1,8 @@
-# 🔐 Secure Notes Application
 
-A secure, scalable, and full-stack web application designed to store and manage personal notes safely.  
-This project focuses on **modern authentication, authorization, and security best practices** using Spring Boot on the backend and React on the frontend.
 
----
+## 📌 Project Description
 
-## 📌 Project Overview
-
-The Secure Notes Application allows users to create, manage, and store notes securely.  
-It implements **enterprise-level security features** such as JWT authentication, OAuth2 login, Multi-Factor Authentication, role-based authorization, and CSRF protection.
-
-This project is ideal for demonstrating **real-world backend security concepts** and **full-stack development skills**.
-
+Live Chat Application is a real-time web application developed using Spring Boot and WebSockets that enables users to communicate instantly through a browser-based interface. The application uses the WebSocket protocol with STOMP messaging to establish a persistent, bidirectional connection between client and server, ensuring low-latency message delivery without page refresh.
 ---
 
 ## 🚀 Features
@@ -69,21 +60,30 @@ This project is ideal for demonstrating **real-world backend security concepts**
 ## 📂 Project Structure
 Live-Chat-Application
 │
-├── src/main/java/com/chat/app
-│ ├── AppApplication.java
-│ ├── config
-│ │ └── WebSocketConfig.java
-│ ├── controller
-│ │ └── ChatController.java
-│ └── model
-│ └── ChatMessage.java
-│
-├── src/main/resources
-│ ├── application.properties
-│ └── templates
-│ └── chat.html
-│
-├── src/test/java/com/chat/app
+├── src
+│ ├── main
+│ │ ├── java
+│ │ │ └── com
+│ │ │ └── chat
+│ │ │ └── app
+│ │ │ ├── AppApplication.java
+│ │ │ ├── config
+│ │ │ │ └── WebSocketConfig.java
+│ │ │ ├── controller
+│ │ │ │ └── ChatController.java
+│ │ │ └── model
+│ │ │ └── ChatMessage.java
+│ │ │
+│ │ └── resources
+│ │ ├── application.properties
+│ │ └── templates
+│ │ └── chat.html
+│ │
+│ └── test
+│ └── java
+│ └── com
+│ └── chat
+│ └── app
 │ └── AppApplicationTests.java
 │
 ├── pom.xml
@@ -122,3 +122,14 @@ mvn spring-boot: run
 
 ```bash
 http://localhost:8080/chat
+
+## 🔁 WebSocket Flow
+
+- Client connects to the WebSocket endpoint  
+- Messages are sent using **STOMP protocol**  
+- Server processes messages via WebSocket controller  
+- Messages are broadcast to all subscribed clients in real time
+
+## ✅ Conclusion
+
+This Live Chat Application successfully demonstrates real-time communication using Spring Boot and WebSockets. The project reflects a strong understanding of backend development concepts, event-driven architecture, and persistent client–server connections. It showcases practical experience in building scalable, secure, and responsive web applications, making it a solid foundation for real-world chat systems and modern web solutions.
